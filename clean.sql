@@ -1,0 +1,63 @@
+DROP MATERIALIZED VIEW IF EXISTS Customers;
+DROP MATERIALIZED VIEW IF EXISTS Groups;
+DROP MATERIALIZED VIEW IF EXISTS Purchase_History;
+DROP MATERIALIZED VIEW IF EXISTS Periods;
+
+DROP PROCEDURE IF EXISTS import_Personal_Data_tsv;
+DROP PROCEDURE IF EXISTS import_Cards_tsv;
+DROP PROCEDURE IF EXISTS import_Groups_SKU_tsv;
+DROP PROCEDURE IF EXISTS import_SKU_tsv;
+DROP PROCEDURE IF EXISTS import_Stores_tsv;
+DROP PROCEDURE IF EXISTS import_Transactions_tsv;
+DROP PROCEDURE IF EXISTS import_Checks_tsv;
+DROP PROCEDURE IF EXISTS import_Date_Of_Analysis_Formation_tsv;
+
+DROP PROCEDURE IF EXISTS import_Personal_Data_csv;
+DROP PROCEDURE IF EXISTS import_Cards_csv;
+DROP PROCEDURE IF EXISTS import_Groups_SKU_csv;
+DROP PROCEDURE IF EXISTS import_SKU_csv;
+DROP PROCEDURE IF EXISTS import_Stores_csv;
+DROP PROCEDURE IF EXISTS import_Transactions_csv;
+DROP PROCEDURE IF EXISTS import_Checks_csv;
+DROP PROCEDURE IF EXISTS import_Date_Of_Analysis_Formation_csv;
+
+DROP PROCEDURE IF EXISTS import;
+
+
+DROP PROCEDURE IF EXISTS export_Personal_Data_tsv;
+DROP PROCEDURE IF EXISTS export_Cards_tsv;
+DROP PROCEDURE IF EXISTS export_Groups_SKU_tsv;
+DROP PROCEDURE IF EXISTS export_SKU_tsv;
+DROP PROCEDURE IF EXISTS export_Stores_tsv;
+DROP PROCEDURE IF EXISTS export_Transactions_tsv;
+DROP PROCEDURE IF EXISTS export_Checks_tsv;
+DROP PROCEDURE IF EXISTS export_Date_Of_Analysis_Formation_tsv;
+
+DROP PROCEDURE IF EXISTS export_Personal_Data_csv;
+DROP PROCEDURE IF EXISTS export_Cards_csv;
+DROP PROCEDURE IF EXISTS export_Groups_SKU_csv;
+DROP PROCEDURE IF EXISTS export_SKU_csv;
+DROP PROCEDURE IF EXISTS export_Stores_csv;
+DROP PROCEDURE IF EXISTS export_Transactions_csv;
+DROP PROCEDURE IF EXISTS export_Checks_csv;
+DROP PROCEDURE IF EXISTS export_Date_Of_Analysis_Formation_csv;
+
+DROP PROCEDURE IF EXISTS export_Cards;
+DROP PROCEDURE IF EXISTS export_Checks;
+DROP PROCEDURE IF EXISTS export_Date_Of_Analysis_Formation;
+DROP PROCEDURE IF EXISTS export_Groups_SKU;
+DROP PROCEDURE IF EXISTS export_Personal_Data;
+DROP PROCEDURE IF EXISTS export_SKU;
+DROP PROCEDURE IF EXISTS export_Stores;
+DROP PROCEDURE IF EXISTS export_Transactions;
+DROP PROCEDURE IF EXISTS export;
+
+
+DROP TABLE IF EXISTS checks;
+DROP TABLE IF EXISTS date_formation_analysis;
+DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS trade_points;
+DROP TABLE IF EXISTS product_matrix;
+DROP TABLE IF EXISTS sku_group;
+DROP TABLE IF EXISTS cards;
+DROP TABLE IF EXISTS Personal_Data;
